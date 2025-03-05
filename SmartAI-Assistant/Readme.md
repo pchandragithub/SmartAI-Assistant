@@ -1,6 +1,6 @@
 That sounds like a fantastic idea! A **Smart AI Assistant for Small Businesses** can be a game-changer if executed well. Since you want to build it quickly with minimal errors and strong security, we’ll take an **agile and modular approach** with clear milestones. Here’s how we’ll proceed:
 
----
+----
 
 ### **🛠️ Step 1: Define the Core Features (MVP - Minimum Viable Product)**
 We’ll start with an **MVP** that provides essential features and can be expanded later based on user feedback.
