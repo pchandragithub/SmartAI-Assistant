@@ -50,7 +50,7 @@ cd ai-foundry-rbac
 terraform init
 ```
 ## 3. CSV File Format
-# Create/edit principals.csv following this structure:
+## Create/edit principals.csv following this structure:
 
 role,principal_type,principal_name
 admin,user,ai-admin@company.com
@@ -150,10 +150,10 @@ az ad user show --id user@company.com
 
 # For groups
 az ad group list --display-name "AI Admins"
-```
 
 # For service principals
 az ad sp list --display-name "ai-foundry-sp"
+```
 Security Considerations
 1.	Least Privilege: Custom roles follow least privilege principles
 2.	Audit Trail: All changes are tracked through Terraform state
