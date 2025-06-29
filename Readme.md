@@ -50,14 +50,16 @@ cd ai-foundry-rbac
 terraform init
 ```
 ## 3. CSV File Format
-## Create/edit principals.csv following this structure:
+## Create/edit `principals.csv` following this structure:
 
+```
 role,principal_type,principal_name
 admin,user,ai-admin@company.com
 admin,group,ai-foundry-admins@company.com
 data_scientist,user,ds1@company.com
 ai_engineer,user,ai-engineer1@company.com
 ml_ops,sp,ai-foundry-mlops-sp
+```
 
 # Columns:
 •	role: Role category (admin, data_scientist, ai_engineer, ml_ops, viewer)
